@@ -58,7 +58,12 @@ ul{
     background-color: var(--Very-dark-blue-main-BG);
     text-align: center;
     padding: 150px 0;
-    height:calc( 100vh - 14px);
+    min-height:calc( 100vh - 14px);
+}
+@media (max-width:767px){
+    .page{
+        padding-bottom: 70px;
+    }
 }
 .page .container{
     display: flex;
